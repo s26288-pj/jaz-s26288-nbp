@@ -1,10 +1,5 @@
 package com.example.jazs26288nbp.model;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-
-import java.util.Date;
-
 public class NbpModel {
 
     private String table;

@@ -1,7 +1,6 @@
 package com.example.jazs26288nbp.controller;
 
 import com.example.jazs26288nbp.exception.CurrencyNotFoundException;
-import com.example.jazs26288nbp.model.NbpModel;
 import com.example.jazs26288nbp.model.NbpRepoModel;
 import com.example.jazs26288nbp.service.NbpService;
 import io.swagger.v3.oas.annotations.Operation;
@@ -14,8 +13,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
-import java.sql.Date;
 import java.time.LocalDate;
 
 @RestController

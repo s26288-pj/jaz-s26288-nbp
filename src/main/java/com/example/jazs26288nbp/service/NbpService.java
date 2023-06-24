@@ -1,16 +1,12 @@
 package com.example.jazs26288nbp.service;
 
 import com.example.jazs26288nbp.model.NbpModel;
-//import com.example.jazs26288nbp.repository.NbpRepository;
 import com.example.jazs26288nbp.model.NbpRepoModel;
-import com.example.jazs26288nbp.model.Rate;
 import com.example.jazs26288nbp.repository.NbpRepository;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
-
 import java.time.LocalDate;
 import java.util.Arrays;
-import java.util.Date;
 
 import static org.aspectj.runtime.internal.Conversions.intValue;
 
